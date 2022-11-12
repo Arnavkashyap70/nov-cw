@@ -1,4 +1,4 @@
-# CW DOWNLOADER BOT ...
+# Don't forget to credit ( Scorpions )
 
 
 import requests
@@ -8,17 +8,13 @@ from pyrogram.types.messages_and_media import message
 import helper
 from pyromod import listen
 from pyrogram.types import Message
-import tgcrypto
 import pyrogram
-from pyrogram import Client, filters
-import time
-from pyrogram.types import User, Message
-from p_bar import progress_bar
-import time
-from subprocess import getstatusoutput
 import logging
-import os
+from pyrogram import Client, filters
+from subprocess import getstatusoutput
 import re
+from pyrogram.types import User, Message
+import os
 
 import requests
 bot = Client(
